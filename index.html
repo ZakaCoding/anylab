@@ -8,11 +8,385 @@
     <!-- Bootstrap component CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <title>Clotish</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- using typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <title>Anylab</title>
 </head>
 <body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="asset/logo-white.png" alt="Anylab" width="120">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">Pricing</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- welcome text -->
+        <div class="container d-flex align-items-center justify-content-center" style="height: 600px;">
+            <div class="w-100 d-block mx-auto my-5 text-center welcome-text position-relative">
+                <!-- img logo -->
+                <img src="asset/logo.png" class="mx-auto my-2" style="width: 400px;" alt="" srcset="">
+                <p class="my-3 fs-4 text-white">
+                    Memberikan penawaran rekomendasi lab terbaik<br> sesuai kebutuhan dan menerima jasa sewa alat-alat Lab.
+                </p>
+
+                <!-- float icon -->
+                <div class="float-icon position-absolute shadow-lg d-flex align-items-center" style="top: 10px; left: 150px;">
+                    <img src="asset/icon/lab/002-centrifuge.png" alt="" class="mx-auto" width="60">
+                </div>
+                <div class="float-icon position-absolute shadow-lg d-flex align-items-center" style="top: -20px; right: 200px;">
+                    <img src="asset/icon/lab/001-beaker.png" alt="" class="mx-auto" width="60">
+                </div>
+                <div class="float-icon position-absolute shadow-lg d-flex align-items-center" style="left: 50px;">
+                    <img src="asset/icon/lab/004-atom.png" alt="" class="mx-auto" width="60">
+                </div>
+                <div class="float-icon position-absolute shadow-lg d-flex align-items-center" style="right: 100px;">
+                    <img src="asset/icon/lab/003-laboratory.png" alt="" class="mx-auto" width="60">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="container pb-5">
+            <div class="position-relative my-2 form-wrapper">
+                <!-- form -->
+                <div class="form-box p-4 position-absolute shadow-lg w-100">
+                    <div class="row">
+                        <div class="col-lg-8" style="border-right: 2px solid whitesmoke;">
+                            <h2 class="title fs-3 fw-bold mb-4">Sewa Lab</h2>
+                            <form action="#" method="get">
+                                <input type="text" class="form-control py-3 px-3" placeholder="Sewa Kebutuhan Laboratorium">
+                            </form>
+                            <div class="row my-3">
+                                <div class="col-md-4"><img src="asset/card-1.png" class="w-100" alt=""></div>
+                                <div class="col-md-4"><img src="asset/card-2.png" class="w-100" alt=""></div>
+                                <div class="col-md-4"><img src="asset/card-3.png" class="w-100" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <h2 class="title fs-3 fw-bold mb-4">Sewa Alat Lab</h2>
+                            <form action="#" method="get">
+                                <input type="text" class="form-control py-3 px-3 mb-3" placeholder="Sewa Alat Kebutuhan Laboratorium">
+                                <input type="number" class="form-control py-3 px-3 mb-3" placeholder="Nomor Telepon">
+                                <button type="submit" class="mb-3 btn btn-lg btn-primary w-100 bg-dark-blue" style="border: none;">Mulai disini</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-5">
+                <h2 class="fs-4 mb-3 title">List Produk</h2>
+                <div class="row">
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/alat-lab/produk 1.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/alat-lab/produk 2.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/alat-lab/produk 3.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/alat-lab/produk 4.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/alat-lab/produk 5.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/alat-lab/produk 6.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/alat-lab/produk 7.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/alat-lab/produk 8.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h2 class="fs-4 mb-3 title">Service & Konsultasi</h2>
+                <div class="row">
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/lab/REKOMENDASI LAB 4.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/lab/REKOMENDASI LAB 3.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/lab/REKOMENDASI LAB 2.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-4">
+                        <div class="card bg-light rounded shadow-sm p-2" style="border: none;">
+                            <img src="upload/lab/REKOMENDASI LAB 1.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     
+    <div class="container">
+        <div class="mb-3 d-block">
+            <div class="row">
+                <div class="col-lg-6">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_zeocn70d.json" class="mx-auto"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+                </div>
+                <div class="col-lg-6 text-dark-blue py-5">
+                    <h2 class="display-5 fw-bold">
+                        Platform terbaik sewa laboratorium
+                    </h2>
+                    <h3 class="fs-3 fw-bold mb-3">
+                        solusi sewa laboratorium <span id="typed"></span>
+                    </h3>
+                    <p>
+                        Pelopor sewa peralatan dan rekomendasi laboratorium pertama di Malang berbasis Big Data Analytics. <br><br> 
+                        ANYLAB hadir untuk menyelesaikan masalah keterbatasan akses laboratorium bagi pelajar, mahasiswa, dan tenaga pendidik, dengan membangun platform sewa laboratorium dilengkapi fitur yang kompleks dan konsultasi GRATIS*
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-5 border-top">
+        <div class="container">
+            <div class="user-feedback mb-5" style="margin-top: 100px;">
+                <h2 class="text-center display-5 fw-bold text-dark-blue mb-5">Apa kata mereka</h2>
+                <div class="row" data-masonry='{"percentPosition": true }'>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card p-3">
+                            <figure class="p-3 mb-0">
+                            <blockquote class="blockquote">
+                                <p>Layanan ANYLAB bagus banget, kami jadi mudah buat cari laboratorium penelitian yang sesuai kebutuhan! Sukses terus buat ANYLAB!</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mb-0 text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card bg-primary text-white text-center p-3">
+                          <figure class="mb-0">
+                            <blockquote class="blockquote">
+                              <p>Sewa alat di anylab memang lengkap, sleain bisa konsultasi gratis untuk pemakaian alat, kita juga bisa request pengiriman yang cepat</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mb-0 text-white">
+                              Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                          </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card p-3 text-end">
+                          <figure class="mb-0">
+                            <blockquote class="blockquote">
+                              <p>Pakai anylab, semua kebutuhan ngelab jadi lebih hemat hehehe.. ga perlu beli alat, tinggal sewa lebih mudah, pengiriman juga lebih cepet!</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mb-0 text-muted">
+                              Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                          </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card text-center p-3">
+                          <figure class="mb-0">
+                            <blockquote class="blockquote">
+                              <p>Penelitianku jadi lebih mudah, semua glassware sewa di anylab, peralatan lengkap, harga pas, pelayanannya juga puas!</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mb-0 text-white">
+                              Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                          </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card p-3 text-end">
+                            <figure class="mb-0">
+                                <blockquote class="blockquote">
+                                    <p>Website ngelab pertama yang aku temui, cari laboratorium buat penelitian jadi lebih mudah, sukses terus anylab!</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer mb-0 text-muted">
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <div class="card p-3">
+                            <figure class="p-3 mb-0">
+                            <blockquote class="blockquote">
+                                <p>Ga hanya sewa alat lab, kami juga lebih mudah konsultasi dengan ahli sesuai penelitian yang relate</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mb-0 text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- headeline banner -->
+            <div class="mb-5 d-block mx-auto" style="margin-top: 150px;">
+                <img src="asset/headline.jpg" alt="" class="w-100 rounded">
+            </div>
+
+            <h2 class="title fs-4">FAQ</h2>
+            <div class="accordion accordion-flush mb-5" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Mengapa menyewa dengan Anylab
+                    </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quo fuga, perferendis quae quisquam tempora adipisci nobis illo explicabo pariatur molestiae a neque minus, dignissimos possimus officiis nulla saepe veniam.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Bagaimana cara menyewa peralatan di Anylab
+                    </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam pariatur quo nesciunt amet inventore laboriosam mollitia saepe, molestias explicabo tempore facilis quis iusto eaque ab neque! Sed porro autem pariatur.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Apakah barang yang disewa di Anylab bisa dikirim
+                    </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem deleniti natus, soluta alias recusandae veritatis at id ut excepturi distinctio non vitae fuga nostrum saepe ratione, deserunt quod ipsam blanditiis.
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4 col-md-2 mb-3">
+                    <h5>Office location</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">Malang Service & Head Office</li>
+                        <li class="nav-item mb-2">Perumahan Bunga Merak, Jalan Bunga Merak 1 Lowokwaru - Malang</li>
+                    </ul>
+                </div>
+        
+                <div class="col-2 col-md-2 mb-3">
+                    <h5>Information</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2 col-md-2 mb-3">
+                    <h5>Shop</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Product</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trend</a></li>
+                    </ul>
+                </div>
+        
+                <div class="col-4 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Get special promo from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2022 Clotish. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // typed.js
+        var typed = new Typed('#typed', {
+            strings: ["yang mudah ^1000","keamanan terjamin ^1000", "layanan prima ^2500", "customize service ^2500"],
+            // smartBackspace : true,
+            typeSpeed: 50,
+            backSpeed: 15,
+            loop : true,
+            showCursor: true,
+            cursorChar: '|',
+            autoInsertCss: true
+        });
+    </script>
     <!-- Bootstrap component js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- data masonry -->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 </body>
 </html>
